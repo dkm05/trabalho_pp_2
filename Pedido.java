@@ -19,10 +19,14 @@ class Pedido {
                 return false;
         }
 
+        public double getPreco() {
+                return this.preco;
+        }
+
         public String toString() {
                 return "Nome: "    + this.cliente.nome +
                      "\nPreço: "   + this.preco        +
-                     "\nEntregue no prazo: " + noPrazo();
+                     "\nEntregue no prazo: " + noPrazo() + "\n";
         }
 
 }
