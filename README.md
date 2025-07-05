@@ -1,3 +1,9 @@
-### Trabalho 2
+# Trabalho 2
 
-segundo trabalho de paradigmas de programação.
+Segundo trabalho de implementação da disciplina "paradigmas de programação".
+
+## Como rodar
+```
+javac Main.java
+java Main
+```
